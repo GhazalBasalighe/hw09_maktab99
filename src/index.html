@@ -8,10 +8,10 @@
         <link rel="stylesheet" href="/dist/output.css">
     </head>
 
-    <body style="direction: rtl;" class="text-textPrimaryColor font-iransans">
+    <body style="direction: rtl;" class="text-textPrimaryColor font-iransans ">
 
-        <header class="flex px-12 py-2 border-b-2 items-center">
-            <div class="head-right">
+        <header class="flex px-12 py-2 border-b-2 items-center text-sm justify-between">
+            <div class="head-right flex items-center">
                 <div class="searchbar-right flex justify-center items-center">
                     <!-- LOGO -->
                     <span class="pl-4"><svg fill="#be3737" width="48px" height="48px" viewBox="0 0 24.00 24.00"
@@ -49,8 +49,57 @@
                             </svg></span>
                     </div>
                 </div>
+
+                <!-- SEARCHBAR -->
+                <div class="searchbar flex items-center mr-5">
+                    <span class="search-icon absolute right-[19.5rem]"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="20" height="20" viewBox="0 0 24 24">
+                            <path fill="rgba(0, 0, 0, 0.87)"
+                                d="m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.612 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3l-1.4 1.4ZM9.5 14q1.875 0 3.188-1.313T14 9.5q0-1.875-1.313-3.188T9.5 5Q7.625 5 6.312 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14Z" />
+                        </svg></span>
+                    <input class="bg-gray-100 pl-4 pr-9 py-2 rounded-md w-[31rem]" type="text"
+                        placeholder="جستجو در همۀ آگهی‌ها">
+                </div>
             </div>
-            <div class="head-left"></div>
+
+            <div class="head-left flex items-center">
+
+                <!-- MY PROFILE دیوار من -->
+                <div class="my-profile flex items-center">
+                    <span class="pl-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            viewBox="0 0 36 36">
+                            <path fill="rgba(0, 0, 0, 0.87)"
+                                d="M18 17a7 7 0 1 0-7-7a7 7 0 0 0 7 7Zm0-12a5 5 0 1 1-5 5a5 5 0 0 1 5-5Z"
+                                class="clr-i-outline clr-i-outline-path-1" />
+                            <path fill="rgba(0, 0, 0, 0.87)"
+                                d="M30.47 24.37a17.16 17.16 0 0 0-24.93 0A2 2 0 0 0 5 25.74V31a2 2 0 0 0 2 2h22a2 2 0 0 0 2-2v-5.26a2 2 0 0 0-.53-1.37ZM29 31H7v-5.27a15.17 15.17 0 0 1 22 0Z"
+                                class="clr-i-outline clr-i-outline-path-2" />
+                            <path fill="none" d="M0 0h36v36H0z" />
+                        </svg></span>
+                    <span>دیوار من</span>
+                </div>
+
+                <!-- CHAT -->
+                <div class="chat flex items-center mx-8">
+                    <span class="pl-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            viewBox="0 0 24 24">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M12 19c5.523 0 10-3.582 10-8s-4.477-8-10-8S2 6.582 2 11c0 2.157 1.067 4.114 2.801 5.553C4.271 18.65 3 20 2 21c3 0 4.527-.979 6.32-2.559c1.14.36 2.38.559 3.68.559z" />
+                        </svg></span>
+                    <span>چت</span>
+                </div>
+
+                <!-- SUPPORT -->
+                <div class="support ml-8">
+                    <span>پشتیبانی</span>
+                </div>
+
+                <!-- SUBMIT AD -->
+                <div class="submit-ad bg-primary text-white px-4 py-2 rounded-md font-bold">
+                    <input type="submit" value="ثبت آگهی">
+                </div>
+            </div>
         </header>
         <main></main>
         <nav></nav>
