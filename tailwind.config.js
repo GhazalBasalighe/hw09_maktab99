@@ -7,7 +7,7 @@ module.exports = {
         iransans: ["IRANSans", "sans-serif"],
       },
       colors: {
-        primary: "#be3737",
+        primary: "rgb(166, 38, 38)",
         textPrimaryColor: "#686868",
       },
     },
