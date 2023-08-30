@@ -9,6 +9,8 @@ module.exports = {
       colors: {
         primary: "rgb(166, 38, 38)",
         textPrimaryColor: "#686868",
+        primaryHover: "rgb(190, 55, 55)",
+        textPrimaryColorHover: "#f5f5f5",
       },
     },
   },
