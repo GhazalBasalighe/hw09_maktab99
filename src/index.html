@@ -10,7 +10,7 @@
 
     <body style="direction: rtl;" class="text-textPrimaryColor font-iransans">
 
-        <header class="flex px-12 py-2 border-b-2 items-center text-xs justify-between">
+        <header class="flex px-14 py-2 border-b-2 items-center text-xs justify-between">
             <div class="head-right flex items-center">
                 <div class="searchbar-right flex justify-center items-center">
                     <!-- LOGO -->
@@ -28,9 +28,9 @@
 
                     <!-- CHOSEN CITY , HERE TEHRAN -->
                     <div class="flex city items-center pr-5 ml-11 border-r-2">
-                        <span class="inline-block"><svg class="inline-block" xmlns="http://www.w3.org/2000/svg"
+                        <span class="inline-block pl-2"><svg class="inline-block" xmlns="http://www.w3.org/2000/svg"
                                 width="20" height="20" viewBox="0 0 28 28">
-                                <path fill="rgba(0, 0, 0, 0.87)"
+                                <path fill="#686868"
                                     d="M14 2.25A9.75 9.75 0 0 1 23.75 12c0 4.12-2.895 8.61-8.61 13.518a1.75 1.75 0 0 1-2.283-.002l-.378-.328C7.017 20.408 4.25 16.028 4.25 12A9.75 9.75 0 0 1 14 2.25Zm0 1.5A8.25 8.25 0 0 0 5.75 12c0 3.502 2.548 7.537 7.714 12.057l.373.323a.25.25 0 0 0 .326 0c5.416-4.652 8.087-8.795 8.087-12.38A8.25 8.25 0 0 0 14 3.75Zm0 4.5a3.75 3.75 0 1 1 0 7.5a3.75 3.75 0 0 1 0-7.5Zm0 1.5a2.25 2.25 0 1 0 0 4.5a2.25 2.25 0 0 0 0-4.5Z" />
                             </svg></span>
                         <span>تهران</span>
@@ -39,10 +39,10 @@
                     <!-- CATEGORIES -->
                     <div class="flex categories items-center">
                         <span>دسته‌ها</span>
-                        <span><svg class="inline-block" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-                                viewBox="0 0 24 24">
+                        <span class="pr-2"><svg class="inline-block" xmlns="http://www.w3.org/2000/svg" width="18"
+                                height="18" viewBox="0 0 24 24">
                                 <g id="feArrowDown0" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
-                                    <g id="feArrowDown1" fill="rgba(0, 0, 0, 0.87)">
+                                    <g id="feArrowDown1" fill="#686868">
                                         <path id="feArrowDown2" d="m6 7l6 6l6-6l2 2l-8 8l-8-8z" />
                                     </g>
                                 </g>
@@ -52,8 +52,8 @@
 
                 <!-- SEARCHBAR -->
                 <div class="searchbar flex items-center mr-5">
-                    <span class="search-icon absolute right-[19.5rem]"><svg xmlns="http://www.w3.org/2000/svg"
-                            width="20" height="20" viewBox="0 0 24 24">
+                    <span class="search-icon absolute right-[20
+                    rem]"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                             <path fill="#686868"
                                 d="m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.612 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3l-1.4 1.4ZM9.5 14q1.875 0 3.188-1.313T14 9.5q0-1.875-1.313-3.188T9.5 5Q7.625 5 6.312 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14Z" />
                         </svg></span>
@@ -68,10 +68,10 @@
                 <div class="my-profile flex items-center">
                     <span class="pl-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                             viewBox="0 0 36 36">
-                            <path fill="rgba(0, 0, 0, 0.87)"
+                            <path fill="#686868"
                                 d="M18 17a7 7 0 1 0-7-7a7 7 0 0 0 7 7Zm0-12a5 5 0 1 1-5 5a5 5 0 0 1 5-5Z"
                                 class="clr-i-outline clr-i-outline-path-1" />
-                            <path fill="rgba(0, 0, 0, 0.87)"
+                            <path fill="#686868"
                                 d="M30.47 24.37a17.16 17.16 0 0 0-24.93 0A2 2 0 0 0 5 25.74V31a2 2 0 0 0 2 2h22a2 2 0 0 0 2-2v-5.26a2 2 0 0 0-.53-1.37ZM29 31H7v-5.27a15.17 15.17 0 0 1 22 0Z"
                                 class="clr-i-outline clr-i-outline-path-2" />
                             <path fill="none" d="M0 0h36v36H0z" />
@@ -96,7 +96,7 @@
                 </div>
 
                 <!-- SUBMIT AD -->
-                <div class="submit-ad bg-primary text-white px-4 py-2 rounded-md font-bold">
+                <div class="submit-ad bg-primary text-white px-4 py-3 rounded-md font-bold">
                     <input type="submit" value="ثبت آگهی">
                 </div>
             </div>
@@ -104,167 +104,271 @@
         <main>
             <!-- WILL BE FILLED DYNAMICALLY BY DOM JS -->
         </main>
-        <nav>
-            <span>دسته‌ها</span>
-            <ul>
-                <!-- املاک -->
-                <li class="flex items-center">
-                    <span class="inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                            viewBox="0 0 24 24">
-                            <g transform="translate(24 0) scale(-1 1)">
-                                <path fill="currentColor"
-                                    d="M14 2H2v20h20v-9.72l-7-2.334l-1 .333V2Zm-2 8.946l-4 1.333V20H4V4h8v6.946ZM10 20v-6.28l5-1.666l5 1.667V20h-4v-4h-2v4h-4Z" />
-                            </g>
-                        </svg></span>
-                    <span>املاک</span>
-                </li>
+        <aside class="pr-14 mt-8 w-1/5">
 
-                <!-- وسایل نقلیه -->
-                <li class="flex items-center">
-                    <span class="inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                            viewBox="0 0 256 256">
-                            <g transform="translate(256 0) scale(-1 1)">
-                                <path fill="currentColor"
-                                    d="M240 112h-10.8l-27.78-62.5A16 16 0 0 0 186.8 40H69.2a16 16 0 0 0-14.62 9.5L26.8 112H16a8 8 0 0 0 0 16h8v80a16 16 0 0 0 16 16h24a16 16 0 0 0 16-16v-16h96v16a16 16 0 0 0 16 16h24a16 16 0 0 0 16-16v-80h8a8 8 0 0 0 0-16ZM69.2 56h117.6l24.89 56H44.31ZM64 208H40v-16h24Zm128 0v-16h24v16Zm24-32H40v-48h176ZM56 152a8 8 0 0 1 8-8h16a8 8 0 0 1 0 16H64a8 8 0 0 1-8-8Zm112 0a8 8 0 0 1 8-8h16a8 8 0 0 1 0 16h-16a8 8 0 0 1-8-8Z" />
-                            </g>
-                        </svg></span>
-                    <span>وسایل نقلیه</span>
-                </li>
-
-                <!-- کالای دیجیتال -->
-                <li class="flex items-center">
-                    <span class="inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                            viewBox="0 0 16 16">
-                            <g transform="translate(16 0) scale(-1 1)">
-                                <g fill="currentColor">
-                                    <path
-                                        d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
-                                    <path d="M8 14a1 1 0 1 0 0-2a1 1 0 0 0 0 2z" />
+            <!-- CATEGORIES SIDEBAR -->
+            <section>
+                <span class="text-xs text-black">دسته‌ها</span>
+                <ul class="text-textPrimaryColor text-xs border-b-2 ">
+                    <!-- املاک -->
+                    <li class="flex items-center mt-6">
+                        <span class="inline-block ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24">
+                                <g transform="translate(24 0) scale(-1 1)">
+                                    <path fill="#686868"
+                                        d="M14 2H2v20h20v-9.72l-7-2.334l-1 .333V2Zm-2 8.946l-4 1.333V20H4V4h8v6.946ZM10 20v-6.28l5-1.666l5 1.667V20h-4v-4h-2v4h-4Z" />
                                 </g>
-                            </g>
-                        </svg></span>
-                    <span>کالای دیجیتال</span>
-                </li>
+                            </svg></span>
+                        <span>املاک</span>
+                    </li>
 
-                <!-- خانه و آشپزخانه -->
-                <li class="flex items-center">
-                    <span class="inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                            viewBox="0 0 24 24">
-                            <g transform="translate(24 0) scale(-1 1)">
-                                <g fill="none" fill-rule="evenodd">
-                                    <path
-                                        d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z" />
-                                    <path fill="currentColor"
-                                        d="M15.28 2a2 2 0 0 1 1.84 1.218l.057.15l3.552 10.658a1.5 1.5 0 0 1-1.29 1.968l-.133.006H13v4h3a1 1 0 0 1 .117 1.993L16 22H8a1 1 0 0 1-.117-1.993L8 20h3v-4H4.694a1.5 1.5 0 0 1-1.46-1.848l.037-.126L6.823 3.368a2 2 0 0 1 1.738-1.362L8.72 2h6.558ZM16 16a1 1 0 1 1 0 2a1 1 0 0 1 0-2Zm-.72-12H8.72L5.388 14h13.226L15.279 4Z" />
+                    <!-- وسایل نقلیه -->
+                    <li class="flex items-center  mt-5">
+                        <span class="inline-block ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 256 256">
+                                <g transform="translate(256 0) scale(-1 1)">
+                                    <path fill="#686868"
+                                        d="M240 112h-10.8l-27.78-62.5A16 16 0 0 0 186.8 40H69.2a16 16 0 0 0-14.62 9.5L26.8 112H16a8 8 0 0 0 0 16h8v80a16 16 0 0 0 16 16h24a16 16 0 0 0 16-16v-16h96v16a16 16 0 0 0 16 16h24a16 16 0 0 0 16-16v-80h8a8 8 0 0 0 0-16ZM69.2 56h117.6l24.89 56H44.31ZM64 208H40v-16h24Zm128 0v-16h24v16Zm24-32H40v-48h176ZM56 152a8 8 0 0 1 8-8h16a8 8 0 0 1 0 16H64a8 8 0 0 1-8-8Zm112 0a8 8 0 0 1 8-8h16a8 8 0 0 1 0 16h-16a8 8 0 0 1-8-8Z" />
                                 </g>
-                            </g>
-                        </svg></span>
-                    <span>خانه و آشپزخانه</span>
-                </li>
+                            </svg></span>
+                        <span>وسایل نقلیه</span>
+                    </li>
 
-                <!-- خدمات -->
-                <li class="flex items-center">
-                    <span class="inline-block">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32">
-                            <g transform="translate(32 0) scale(-1 1)">
-                                <path fill="currentColor"
-                                    d="M6 3a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v15.75A3.25 3.25 0 0 1 22.75 22H20v4a4 4 0 0 1-8 0v-4H9.25A3.25 3.25 0 0 1 6 18.75V3Zm2 1v10h16V4h-2v5a1 1 0 1 1-2 0V4h-2v3a1 1 0 1 1-2 0V4H8Zm16 14.75V16H8v2.75c0 .69.56 1.25 1.25 1.25H13a1 1 0 0 1 1 1v5a2 2 0 1 0 4 0v-5a1 1 0 0 1 1-1h3.75c.69 0 1.25-.56 1.25-1.25Z" />
-                            </g>
-                        </svg>
-                    </span>
-                    <span>خدمات</span>
-                </li>
-
-                <!-- وسایل شخصی -->
-                <li class="flex items-center">
-                    <span class="inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                            viewBox="0 0 256 256">
-                            <g transform="translate(256 0) scale(-1 1)">
-                                <path fill="currentColor"
-                                    d="M206 128a77.92 77.92 0 0 0-32.53-63.31L167.1 29.5A14 14 0 0 0 153.32 18h-50.64A14 14 0 0 0 88.9 29.5l-6.37 35.19a77.87 77.87 0 0 0 0 126.62l6.37 35.19a14 14 0 0 0 13.78 11.5h50.64a14 14 0 0 0 13.78-11.5l6.37-35.19A77.92 77.92 0 0 0 206 128ZM100.71 31.64a2 2 0 0 1 2-1.64h50.64a2 2 0 0 1 2 1.64l4.56 25.19a77.68 77.68 0 0 0-63.7 0Zm54.58 192.72a2 2 0 0 1-2 1.64h-50.61a2 2 0 0 1-2-1.64l-4.56-25.19a77.68 77.68 0 0 0 63.7 0ZM128 194a66 66 0 1 1 66-66a66.08 66.08 0 0 1-66 66Zm46-66a6 6 0 0 1-6 6h-40a6 6 0 0 1-6-6V88a6 6 0 0 1 12 0v34h34a6 6 0 0 1 6 6Z" />
-                            </g>
-                        </svg></span>
-                    <span>وسایل شخصی</span>
-                </li>
-
-                <!-- سرگرمی و فراغت -->
-                <li class="flex items-center">
-                    <span class="inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                            viewBox="0 0 24 24">
-                            <g transform="translate(24 0) scale(-1 1)">
-                                <path fill="currentColor"
-                                    d="M14 8c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1m-2 4v7H5v-7h7m.78-2H4.22C3.55 10 3 10.55 3 11.22v8.56c0 .67.55 1.22 1.22 1.22h8.56c.67 0 1.22-.55 1.22-1.22v-8.56c0-.67-.55-1.22-1.22-1.22m7-7h-8.56C10.55 3 10 3.55 10 4.22V8h2V5h7v7h-3v2h3.78c.67 0 1.22-.55 1.22-1.22V4.22C21 3.55 20.45 3 19.78 3M17 8c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1m0 3c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1M7 15c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1m3 3c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1" />
-                            </g>
-                        </svg></span>
-                    <span>سرگرمی و فراغت</span>
-                </li>
-
-                <!-- اجتماعی -->
-                <li class="flex items-center">
-                    <span class="inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                            viewBox="0 0 24 24">
-                            <g transform="translate(24 0) scale(-1 1)">
-                                <g id="evaPeopleOutline0">
-                                    <g id="evaPeopleOutline1">
-                                        <path id="evaPeopleOutline2" fill="currentColor"
-                                            d="M9 11a4 4 0 1 0-4-4a4 4 0 0 0 4 4Zm0-6a2 2 0 1 1-2 2a2 2 0 0 1 2-2Zm8 8a3 3 0 1 0-3-3a3 3 0 0 0 3 3Zm0-4a1 1 0 1 1-1 1a1 1 0 0 1 1-1Zm0 5a5 5 0 0 0-3.06 1.05A7 7 0 0 0 2 20a1 1 0 0 0 2 0a5 5 0 0 1 10 0a1 1 0 0 0 2 0a6.9 6.9 0 0 0-.86-3.35A3 3 0 0 1 20 19a1 1 0 0 0 2 0a5 5 0 0 0-5-5Z" />
+                    <!-- کالای دیجیتال -->
+                    <li class="flex items-center  mt-5">
+                        <span class="inline-block ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 16 16">
+                                <g transform="translate(16 0) scale(-1 1)">
+                                    <g fill="#686868">
+                                        <path
+                                            d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                                        <path d="M8 14a1 1 0 1 0 0-2a1 1 0 0 0 0 2z" />
                                     </g>
                                 </g>
-                            </g>
-                        </svg></span>
-                    <span>اجتماعی</span>
-                </li>
+                            </svg></span>
+                        <span>کالای دیجیتال</span>
+                    </li>
 
-                <!-- تجهیزات و صنعتی -->
-                <li class="flex items-center">
-                    <span class="inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                            viewBox="0 0 24 24">
-                            <g transform="translate(24 0) scale(-1 1)">
-                                <g fill="none" stroke="currentColor" stroke-width="1.5">
-                                    <path
-                                        d="M6 15.5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2Zm.628-8.734c.242-2.012.362-3.017.944-3.704a3 3 0 0 1 .638-.566C8.96 2 9.974 2 12 2s3.039 0 3.79.496a3 3 0 0 1 .638.566c.582.687.703 1.692.944 3.704l.091.757c.25 2.088.376 3.132-.221 3.804c-.597.673-1.648.673-3.75.673h-2.983c-2.103 0-3.154 0-3.75-.673c-.597-.672-.472-1.716-.222-3.804l.091-.757ZM12 12v2" />
-                                    <path stroke-linecap="round"
-                                        d="M12 22v-2m0 0v-2.5m0 2.5l.466.116A2.88 2.88 0 0 1 14.5 22M12 20l-.466.116A2.88 2.88 0 0 0 9.5 22M6 16l-.865-2.595c-.073-.22-.11-.33-.18-.482a2.36 2.36 0 0 0-.16-.297C4.34 11.876 3.733 11.5 2 11.5M18 16l.865-2.595c.073-.22.11-.33.18-.482c.072-.153.1-.201.16-.297c.456-.75 1.063-1.126 2.795-1.126" />
+                    <!-- خانه و آشپزخانه -->
+                    <li class="flex items-center  mt-5">
+                        <span class="inline-block ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24">
+                                <g transform="translate(24 0) scale(-1 1)">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path
+                                            d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z" />
+                                        <path fill="#686868"
+                                            d="M15.28 2a2 2 0 0 1 1.84 1.218l.057.15l3.552 10.658a1.5 1.5 0 0 1-1.29 1.968l-.133.006H13v4h3a1 1 0 0 1 .117 1.993L16 22H8a1 1 0 0 1-.117-1.993L8 20h3v-4H4.694a1.5 1.5 0 0 1-1.46-1.848l.037-.126L6.823 3.368a2 2 0 0 1 1.738-1.362L8.72 2h6.558ZM16 16a1 1 0 1 1 0 2a1 1 0 0 1 0-2Zm-.72-12H8.72L5.388 14h13.226L15.279 4Z" />
+                                    </g>
                                 </g>
-                            </g>
-                        </svg></span>
-                    <span>تجهیزات و صنعتی</span>
-                </li>
+                            </svg></span>
+                        <span>خانه و آشپزخانه</span>
+                    </li>
 
-                <!-- استخدام و کاریابی -->
-                <li class="flex items-center">
-                    <span class="inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                            viewBox="0 0 24 24">
-                            <g transform="translate(24 0) scale(-1 1)">
-                                <path fill="currentColor"
-                                    d="M19 6.5h-3v-1a3 3 0 0 0-3-3h-2a3 3 0 0 0-3 3v1H5a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-9a3 3 0 0 0-3-3Zm-9-1a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1h-4Zm10 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-5.05h3v1.05a1 1 0 0 0 2 0v-1.05h6v1.05a1 1 0 0 0 2 0v-1.05h3Zm0-7H4v-2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1Z" />
-                            </g>
-                        </svg></span>
-                    <span>استخدام و کاریابی</span>
-                </li>
-
-                <!-- رزومه کارجویان -->
-                <li class="flex items-center">
-                    <span class="inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                            viewBox="0 0 48 48">
-                            <g transform="translate(48 0) scale(-1 1)">
-                                <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="4">
-                                    <circle cx="24" cy="12" r="8" />
-                                    <path d="M42 44c0-9.941-8.059-18-18-18S6 34.059 6 44" />
-                                    <path d="m24 44l4-5l-4-13l-4 13l4 5Z" />
+                    <!-- خدمات -->
+                    <li class="flex items-center  mt-5">
+                        <span class="inline-block ml-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32">
+                                <g transform="translate(32 0) scale(-1 1)">
+                                    <path fill="#686868"
+                                        d="M6 3a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v15.75A3.25 3.25 0 0 1 22.75 22H20v4a4 4 0 0 1-8 0v-4H9.25A3.25 3.25 0 0 1 6 18.75V3Zm2 1v10h16V4h-2v5a1 1 0 1 1-2 0V4h-2v3a1 1 0 1 1-2 0V4H8Zm16 14.75V16H8v2.75c0 .69.56 1.25 1.25 1.25H13a1 1 0 0 1 1 1v5a2 2 0 1 0 4 0v-5a1 1 0 0 1 1-1h3.75c.69 0 1.25-.56 1.25-1.25Z" />
                                 </g>
+                            </svg>
+                        </span>
+                        <span>خدمات</span>
+                    </li>
+
+                    <!-- وسایل شخصی -->
+                    <li class="flex items-center mt-5">
+                        <span class="inline-block ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 256 256">
+                                <g transform="translate(256 0) scale(-1 1)">
+                                    <path fill="#686868"
+                                        d="M206 128a77.92 77.92 0 0 0-32.53-63.31L167.1 29.5A14 14 0 0 0 153.32 18h-50.64A14 14 0 0 0 88.9 29.5l-6.37 35.19a77.87 77.87 0 0 0 0 126.62l6.37 35.19a14 14 0 0 0 13.78 11.5h50.64a14 14 0 0 0 13.78-11.5l6.37-35.19A77.92 77.92 0 0 0 206 128ZM100.71 31.64a2 2 0 0 1 2-1.64h50.64a2 2 0 0 1 2 1.64l4.56 25.19a77.68 77.68 0 0 0-63.7 0Zm54.58 192.72a2 2 0 0 1-2 1.64h-50.61a2 2 0 0 1-2-1.64l-4.56-25.19a77.68 77.68 0 0 0 63.7 0ZM128 194a66 66 0 1 1 66-66a66.08 66.08 0 0 1-66 66Zm46-66a6 6 0 0 1-6 6h-40a6 6 0 0 1-6-6V88a6 6 0 0 1 12 0v34h34a6 6 0 0 1 6 6Z" />
+                                </g>
+                            </svg></span>
+                        <span>وسایل شخصی</span>
+                    </li>
+
+                    <!-- سرگرمی و فراغت -->
+                    <li class="flex items-center mt-5">
+                        <span class="inline-block ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24">
+                                <g transform="translate(24 0) scale(-1 1)">
+                                    <path fill="#686868"
+                                        d="M14 8c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1m-2 4v7H5v-7h7m.78-2H4.22C3.55 10 3 10.55 3 11.22v8.56c0 .67.55 1.22 1.22 1.22h8.56c.67 0 1.22-.55 1.22-1.22v-8.56c0-.67-.55-1.22-1.22-1.22m7-7h-8.56C10.55 3 10 3.55 10 4.22V8h2V5h7v7h-3v2h3.78c.67 0 1.22-.55 1.22-1.22V4.22C21 3.55 20.45 3 19.78 3M17 8c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1m0 3c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1M7 15c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1m3 3c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1" />
+                                </g>
+                            </svg></span>
+                        <span>سرگرمی و فراغت</span>
+                    </li>
+
+                    <!-- اجتماعی -->
+                    <li class="flex items-center mt-5">
+                        <span class="inline-block ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24">
+                                <g transform="translate(24 0) scale(-1 1)">
+                                    <g id="evaPeopleOutline0">
+                                        <g id="evaPeopleOutline1">
+                                            <path id="evaPeopleOutline2" fill="#686868"
+                                                d="M9 11a4 4 0 1 0-4-4a4 4 0 0 0 4 4Zm0-6a2 2 0 1 1-2 2a2 2 0 0 1 2-2Zm8 8a3 3 0 1 0-3-3a3 3 0 0 0 3 3Zm0-4a1 1 0 1 1-1 1a1 1 0 0 1 1-1Zm0 5a5 5 0 0 0-3.06 1.05A7 7 0 0 0 2 20a1 1 0 0 0 2 0a5 5 0 0 1 10 0a1 1 0 0 0 2 0a6.9 6.9 0 0 0-.86-3.35A3 3 0 0 1 20 19a1 1 0 0 0 2 0a5 5 0 0 0-5-5Z" />
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg></span>
+                        <span>اجتماعی</span>
+                    </li>
+
+                    <!-- تجهیزات و صنعتی -->
+                    <li class="flex items-center mt-5">
+                        <span class="inline-block ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24">
+                                <g transform="translate(24 0) scale(-1 1)">
+                                    <g fill="none" stroke="#686868" stroke-width="1.5">
+                                        <path
+                                            d="M6 15.5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2Zm.628-8.734c.242-2.012.362-3.017.944-3.704a3 3 0 0 1 .638-.566C8.96 2 9.974 2 12 2s3.039 0 3.79.496a3 3 0 0 1 .638.566c.582.687.703 1.692.944 3.704l.091.757c.25 2.088.376 3.132-.221 3.804c-.597.673-1.648.673-3.75.673h-2.983c-2.103 0-3.154 0-3.75-.673c-.597-.672-.472-1.716-.222-3.804l.091-.757ZM12 12v2" />
+                                        <path stroke-linecap="round"
+                                            d="M12 22v-2m0 0v-2.5m0 2.5l.466.116A2.88 2.88 0 0 1 14.5 22M12 20l-.466.116A2.88 2.88 0 0 0 9.5 22M6 16l-.865-2.595c-.073-.22-.11-.33-.18-.482a2.36 2.36 0 0 0-.16-.297C4.34 11.876 3.733 11.5 2 11.5M18 16l.865-2.595c.073-.22.11-.33.18-.482c.072-.153.1-.201.16-.297c.456-.75 1.063-1.126 2.795-1.126" />
+                                    </g>
+                                </g>
+                            </svg></span>
+                        <span>تجهیزات و صنعتی</span>
+                    </li>
+
+                    <!-- استخدام و کاریابی -->
+                    <li class="flex items-center mt-5">
+                        <span class="inline-block ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24">
+                                <g transform="translate(24 0) scale(-1 1)">
+                                    <path fill="#686868"
+                                        d="M19 6.5h-3v-1a3 3 0 0 0-3-3h-2a3 3 0 0 0-3 3v1H5a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-9a3 3 0 0 0-3-3Zm-9-1a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1h-4Zm10 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-5.05h3v1.05a1 1 0 0 0 2 0v-1.05h6v1.05a1 1 0 0 0 2 0v-1.05h3Zm0-7H4v-2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1Z" />
+                                </g>
+                            </svg></span>
+                        <span>استخدام و کاریابی</span>
+                    </li>
+
+                    <!-- رزومه کارجویان -->
+                    <li class="flex items-center  my-5">
+                        <span class="inline-block ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 48 48">
+                                <g transform="translate(48 0) scale(-1 1)">
+                                    <g fill="none" stroke="#686868" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="4">
+                                        <circle cx="24" cy="12" r="8" />
+                                        <path d="M42 44c0-9.941-8.059-18-18-18S6 34.059 6 44" />
+                                        <path d="m24 44l4-5l-4-13l-4 13l4 5Z" />
+                                    </g>
+                                </g>
+                            </svg></span>
+                        <span>رزومه کارجویان</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- OTHER FILTERS(CITY,PRICE,STATUS,...) -->
+            <section>
+                <ul>
+                    <li class="border-b-2 py-4">
+                        <span class="pr-2"><svg class="inline-block" xmlns="http://www.w3.org/2000/svg" width="20"
+                                height="20" viewBox="0 0 24 24">
+                                <g id="feArrowDown0" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+                                    <g id="feArrowDown1" fill="#adadad">
+                                        <path id="feArrowDown2" d="m6 7l6 6l6-6l2 2l-8 8l-8-8z" />
+                                    </g>
+                                </g>
+                            </svg></span>
+                        <span class="text-xs text-black">محل</span>
+                    </li>
+                    <li class="border-b-2 py-4">
+                        <span class="pr-2"><svg class="inline-block" xmlns="http://www.w3.org/2000/svg" width="20"
+                                height="20" viewBox="0 0 24 24">
+                                <g id="feArrowDown0" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+                                    <g id="feArrowDown1" fill="#adadad">
+                                        <path id="feArrowDown2" d="m6 7l6 6l6-6l2 2l-8 8l-8-8z" />
+                                    </g>
+                                </g>
+                            </svg></span>
+                        <span class="text-xs text-black">قیمت</span>
+                    </li>
+                    <li class="border-b-2 py-4">
+                        <span class="pr-2"><svg class="inline-block" xmlns="http://www.w3.org/2000/svg" width="20"
+                                height="20" viewBox="0 0 24 24">
+                                <g id="feArrowDown0" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+                                    <g id="feArrowDown1" fill="#adadad">
+                                        <path id="feArrowDown2" d="m6 7l6 6l6-6l2 2l-8 8l-8-8z" />
+                                    </g>
+                                </g>
+                            </svg></span>
+                        <span class="text-xs text-black">وضعیت آگهی</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- SMALL ABOUT TEXTS BELOW THE LOGOS -->
+            <section class="text-xs mt-2">
+                <span class=" px-2 py-3 inline-block">دربارۀ دیوار</span>
+                <span class=" px-2 py-3 inline-block">دریافت برنامه</span>
+                <span class=" px-2 py-3 inline-block">بلاگ دیوار</span>
+                <span class=" px-2 py-3 inline-block">کسب‌و‌کارها</span>
+                <span class=" px-2 py-3 inline-block">پشتیبانی و قوانین</span>
+            </section>
+
+            <!-- LOGOS CONTACT US -->
+            <section class="pl-1 mt-2">
+                <!-- TWITTER LOGO -->
+                <span class="inline-block pr-8"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        viewBox="0 0 24 24">
+                        <path fill="#686868"
+                            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                    </svg></span>
+
+                <!-- INSTAGRAM LOGO -->
+                <span class="inline-block pr-8"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20"
+                        height="20" viewBox="0 0 30 30">
+                        <path fill="#686868"
+                            d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z">
+                        </path>
+                    </svg></span>
+
+                <!-- LINKEDIN LOGO -->
+                <span class="inline-block pr-8"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20"
+                        height="20" viewBox="0 0 30 30">
+                        <path fill="#686868"
+                            d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z">
+                        </path>
+                    </svg></span>
+
+                <!-- APARAT LOGO -->
+                <span class="inline-block pr-8"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20"
+                        height="20" viewBox="0,0,256,256">
+                        <g fill="#686868" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                            style="mix-blend-mode: normal">
+                            <g transform="scale(5.33333,5.33333)">
+                                <path
+                                    d="M15.17383,2.60938c-3.25671,-0.08291 -6.22508,2.1242 -6.98633,5.42383l-1.10937,4.80469c3.094,-5.044 8.41959,-8.37141 14.30859,-8.94141l-4.80469,-1.10937c-0.47138,-0.10887 -0.94296,-0.16589 -1.4082,-0.17773zM23.61523,7c-7.24553,0.16119 -13.85428,4.98083 -15.95703,12.31445c-2.588,9.026 2.63125,18.43934 11.65625,21.02734c9.025,2.588 18.43934,-2.63025 21.02734,-11.65625c2.588,-9.026 -2.63025,-18.43934 -11.65625,-21.02734c-1.69237,-0.48525 -3.39827,-0.6954 -5.07031,-0.6582zM35.16211,7.07813c5.044,3.094 8.37141,8.41959 8.94141,14.30859l1.10938,-4.80469c0.871,-3.771 -1.47509,-7.52453 -5.24609,-8.39453zM20.19141,12.58984c0.26484,0.02049 0.53162,0.06853 0.79688,0.14453c2.123,0.608 3.35019,2.82231 2.74219,4.94531c-0.608,2.123 -2.82427,3.35019 -4.94727,2.74219c-2.123,-0.608 -3.34923,-2.82231 -2.74023,-4.94531c0.53288,-1.85762 2.29457,-3.03015 4.14844,-2.88672zM31.72656,15.89844c0.26493,0.02056 0.5315,0.06841 0.79688,0.14453c2.123,0.608 3.35119,2.82231 2.74219,4.94531c-0.608,2.122 -2.82427,3.35019 -4.94727,2.74219c-2.123,-0.608 -3.35019,-2.82231 -2.74219,-4.94531c0.532,-1.85763 2.29587,-3.03063 4.15039,-2.88672zM24.03516,22.00195c1.104,0.019 1.98189,0.9282 1.96289,2.0332c-0.019,1.104 -0.9282,1.98189 -2.0332,1.96289c-1.104,-0.019 -1.98189,-0.9282 -1.96289,-2.0332c0.019,-1.104 0.9282,-1.98189 2.0332,-1.96289zM16.88477,24.12695c0.26493,0.02049 0.5315,0.06658 0.79688,0.14258c2.123,0.608 3.35119,2.82427 2.74219,4.94727c-0.609,2.123 -2.82527,3.34923 -4.94727,2.74023c-2.123,-0.608 -3.35119,-2.82231 -2.74219,-4.94531c0.532,-1.85762 2.29587,-3.0282 4.15039,-2.88477zM3.89648,26.61523l-1.10937,4.80469c-0.87,3.771 1.47509,7.52353 5.24609,8.39453l4.80469,1.10938c-5.043,-3.094 -8.37141,-8.41959 -8.94141,-14.30859zM28.41797,27.43359c0.26493,0.02049 0.53345,0.06853 0.79883,0.14453c2.123,0.608 3.34923,2.82231 2.74023,4.94531c-0.609,2.123 -2.82231,3.35019 -4.94531,2.74219c-2.123,-0.608 -3.35019,-2.82231 -2.74219,-4.94531c0.532,-1.85763 2.29392,-3.03015 4.14844,-2.88672zM40.92383,35.16211c-3.094,5.043 -8.41959,8.37141 -14.30859,8.94141l4.80469,1.10938c3.771,0.87 7.52353,-1.47509 8.39453,-5.24609z">
+                                </path>
                             </g>
-                        </svg></span>
-                    <span>رزومه کارجویان</span>
-                </li>
-            </ul>
-            <!-- <ul>
-                <li>محل</li>
-                <li>قیمت</li>
-                <li>وضعیت آگهی</li>
-            </ul> -->
-        </nav>
+                        </g>
+                    </svg></span>
+            </section>
+
+            <!-- E NAMAD LOGOS -->
+            <section class="flex mt-6">
+
+                <div><img src="https://parspng.com/wp-content/uploads/2023/01/ENAMADpng.parspng.com_.png"
+                        alt="نماد اعتماد الکترونیکی"></div>
+
+                <div><img
+                        src="data:image/png;base64,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"
+                        alt="نماد اعتماد الکترونیکی"></div>
+
+                <div><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAMAAAAL34HQAAAByFBMVEUAAAD9/f1nZ2dpaWlmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmb9/f1mZmZmZmZsbGx1dXX19fVUVFRgYGD///9ycnJNTU2Dg4O9vb3Gxsanp6fIyMiNjY3s7OyQkJCKiopdXV15eXnIyMjAwMCEhIRgYGDCwsLDw8OkpKSBgYHIyMiYmJjS0tLNzc2rq6uZmZl0dHTGxsaGhobS0tJWVlZmZma6urpxcXGenp7X19fg4ODd3d24uLjKyspTU1Nvb29WVlZeXl7U1NTT09O5ubl9fX2Ojo7Z2dm2trZ4eHhsbGyzs7OLi4vi4uLs7OzIyMjExMSpqam1tbVcXFyenp6zs7NiYmKoqKiXl5eJiYnPz8/V1dV/f3/l5eVwcHCYmJhubm5PT0/j4+PS0tLY2NhbW1t1dXWZmZlUVFS5ubmwsLCpqam6urrR0dHj4+Pc3NzOzs7T09NmZmbX19fk5OTh4eHExMTIyMjo6OhYWFi/v79gYGDt7e1RUVGdnZ25ublra2uzs7NKSkqKioqlpaWTk5OEhISXl5d9fX1vb2+tra3x8fGPj493d3f09PT7+/v39/dDQ0Opqalzc3M/Pz82NjaRm3KlAAAAcXRSTlMADkMR3XeZMu4iqFTMZgW7iDgKE6yrCUkxLFdNj0I1ILSpnxr18Lq2y7qAPtKtrKWacXA5I/K3sW9gU09EOMm8oY+Kgcq6ubWFYF67taaVhCrq47iylIx8bWhnTuncpqWem4BvaZJ+XlU/Pt+9p5FclSpYVToAABjWSURBVHja7Jd7TxNBFMUrRhM1ISIWgqVUUEAR8W1QML5FQPH9wGdMfEYjzkxnZ2Y723a7paVQqwHUr+u5A/gBoCh/eEK7S/Z257fnnt7uxv7rv/5o174nx9p2xTaY9j0+feny6cvbYhtJ+971djV0fGi61Ht844Dt2rE93trR123aOxouxN9tjm0INTzoPdM2ecBqoT/2dTyNd+2I/XudROPazl6z1hqhre4fbDsTf9AU+ytqXNnZlNrk1LysVN+NiRND1/brMLSCGQ0dHD1x/cb11EqFK29JNTeunKqOVJtWlLr96DBp77J6OhPDA3c05zbUTBobWs5PXZ1KvOpZqXDl7eduE59TY/2xmlPtnZNjY3uWlUgkht8806E1XBshubUIGNNh98BwciixUjU2NvmqM7WuWEM9ybdHoAGn81fP37VaA8bqSHONXeBp0N25ShpAJelNsnOwZT2xeiZHIxKiZPEK8YKMjqozkYWAZbR1AmRIJVFUjd6O9aRa1g0r9qjzRL+1DspwB8S5AUkUlXNVYTUXkglD/nHaOGK6iDvDEw9j64XVeLsncUuDB1hGCNjBJTgYt6Wo8OsHE5wxptTSAQnbiJOHoRZ8INlzLrZOWLH2ieE7MAJcnEnYIUDCpcdLi+VicaHsK8m5UMoY8AnYiALJrRbChqPHXrWsD1ZsaOTEACJluOHoldQWRhGCrZTSC7lczs5ziCkBGim5ATvArZE8jA4kX+yJrQdWS+rwsdH9bgZwmAQsAyxI5POzxWIuk0u7/6UCDZqIXaAxqTmj7L8d60Tq64/VODiSvIK4AAv9g1/GSIcVlcuZYgbKzTLC9RhfPmSI3JCvNuxPvBhcB6yWcz17bmEhSAg0iJxhZIkuV2bhVSYIgkzEgOUDi1pJXNxhGZomXxIjw/XHau6bSDwXXDsHXIS4cFiLtRqZFaTTQaZCafKVC74EPZXgZcjjZ1PXX92uM1ZL89R48iWFhZZ0WJ4QLkUVMgtUhUI6qCjGvK8+Au95eBOuVjIaGYZfTY4PpuqHBbWc6xs/O3pKMGGMYR4THKYACxS2XA6K6GCBsEIPWFnGFPM8BiwETaGMRisX5m1y/OHwpvpRNQ+OTCRHnwtBo1MrWlGqLBMMe2GtnHNmzRWCWQWsrEctzGYZhDLlHDNGMH33dfL6+KNUvahaO0f2DL08JSRGpzDCUwzCulz6vmdreUQLZs3NBTbre1lfLGF5QKRmCk72UietfjmVeNH5tC5Q2x6cPp689ZxLSdcMnxhJuU4iSGK6VF7CSpcZMD3mAu8DCwWUMfp6KCWNNto++5J4srurDjevW3ovtY1d0RpMGuIcMBBBgRFGVGrR9JJbhjiEcG554KMKOEaTAm8GG4D1D3Zc7t25xseQhnjXoY6b3dqStCFp7qgIC2si89P5cBrZCqqETHL2eIwIKYWEx520tmHU/elpEx5K1vKktbP3TMejZ1qDBTKGQ3DAaamdUrFoOrLfgqDmoJizh7qJrasgPODjGPnNcYXdRzvex7eu3rDj25vO9gtjNZfOIeJiyiULUlhMAoBFtTCfKViyz5ufp6xns76vgEOHgc8VDX1B1yXdLfbdyaaLF1eN1bXjCfJirBHMdUYYag8C5XsE5EnmbFH5vJ3Nhxq0JsrXavmQZRlNLInku/kFUjC6n3FujYRlD1vja8Bqp1hYztzkwQrKUzAJKDQpfabgis+YrkRhqaRNaTZTXICK6TxCjsnqDtNlKCUYkeJE7iHE3muI71o1Vms7fYE09xiHaHgz5uAo68pXcAHdYqa8WKqUyoUi7m+cisVvVhoGqxxWVkk4i2rKv2EM+bq/NizkSmjxBwseIFXZrAKe+xcO+GyxEpVm5nJgwl/GaaGgtWUSh+ErbekDAqcAliSspq5VY21tbY+QZLOEJdywojTBAmw9vCPlX1m1XMoXigu5ALOrEOBmAsosTOuqZfQZErA8h+VxLYGlDzZtXzXW9tb2kLCkr8C1BMcAg9gL30ecQTXvLVYq34o/09O1SqkaVUv5mXSQDkAXRSVJLE6E5SNg9OslrNbXDsU3rx7rM7A4lzg5YXliaV95UhEWwvVdLebLAaCma/lqqI3WJizN0M1X7jdp5vIrQxCFcSEIIh6JIBELjxAsECIsJB4RCzZYCJGIFfFIqlpVdfftrqmenn7qx8z1+Ht951QT2xknuTP3zpieX5/z1XlxeZVZoLMZyJ8lEOAwIDU/OvI/WFcTxhKK4TSfce4cYlJYbFeiK4fZrK7bqsOc2uEhC8O8AtdWnVcO/0hMWDFVIcJC0f4/rGM7CQssQjCWER7Ln3xr7bbJ8mKRFuPQ/WiGypVdhyOZJ3mdztOxawbRx4YbrymaygBLoIl+fmT//2CFoSIWUq7hL1BgU/ESnlraZRwm1WJe1D+6oa7yiEqPkV3l8hKq/waZyW1rqCwAj8VPJ1EaEUaf/gvrKY+Ekr/P4BeFbKWR23s2G0g3+1lUeVM3UhsC0FCTRFNRb6XfnGuTVUwfFcZqPBNWwHlZ3P0fbR15ir7B12fFdThQCJ5RvihCNt3sJ3xT1LleWkFGCXYlCufSrXnl2jwW5GlofSrafh5S6uLe/Wc3xrr8NOHlEDcHit3FhUfAyDlhOm+6vChCQ+YrpIq3V13dtbP54NpOgwpQiq7AYYTwad64uLm3jt468lQG1CbRSG81C94aXNvH0qg2dXkyNFALmbUUMWWXK9mW9eJbAW9Zip3QRrCfcBEaN5C67p68dXLTvmbPyY9S+oaE+gU8CpII6V4DK262XBK6UsTkO+2jSzpamdrVixZYCbAUUU0VwmIWJyp5/vThDTubG0+OX+IBD2TGUgQF37qfHFALk/mQh1nVoctabVsqlPQycD1WPTRtZAVQfcsIKE07HRxYRODzkSeXN8J6d/jkxzDhXRWjQFgsXy8sgLZp/kNmZVM1ZSK2LYjoNCLRbqvWjYu6qQpF1dMwlTc17Qmi8693v92E6vKtI1f9MlSx4BV+fA9BpuPALbYKZFAHq+rC5VKQryywVugKv6atKxqtp1sx3Msq1j7vvpJPJ/e/30Dv93ZffiYjiqHyiYvbE8ZSwgo3983VYpZ+qyvnhhb1JxJItP1q6ephNiKQHVzomzOOJOAm7UP3518dfLv+YTx+a98LRbsZCqJUnKv5gaaZOPn2/TsN09QpzND9pW0Fl41jUWbSiK6t5ltt4wppY5jBh/izJibICSu6e3L/2vPPrre375wLAk4yHD0/ssLwh03SX7w78oauD55Lx3oYirpF2W6HFs4qB0cyjy2XQ8712lD0EUfCOnfp+Nop9f2tk49oFPRhDOiCQnssbeX814ypvpJ5shmR/WyLqgLcuEjrpixCobQFGOuSc51GQ0TykjTjXTm95/rR9Zx16/0r6bH8IG00XRUCMb0o08UENSdjMI+G1wkV79cFelaSk7XAAhSMigB1tj4Vohv/cvnCjbX0fnv/6bv4sCIZMBag6F6FWcp24WUFKHTJ38AFvn+cBpsVdVk2pEKKohaExWMAD5CBnNbQNz+8e7eOu25cuIxMik9PRoKNLcDMEgH8TptSkND2iIzo2GseDTbUrmsirgjG4m6IisdLC9MeS+LNq6cvnF4D69rhy+fDyEeRk7zHsroX468tHLdxzJIkb8avTDbB/UVr2iZvkthXSjhZCzZNfXbP/eq0YZF3rj9eDwtfi7z3Bwum6UatmxU5cmxbRhKKCcJmJJqJjMHQZxFVTonB/Blh2YhKA8tflvJgCKy1gnjkEv2/zYTFS0dDugjrMsKL2c9caEFx0SoZxm8ezT/VzTeXN5nttTEMA+NfTGx7vjmIC5Ew4Pp85MKHdSRPzUNCAMpjUSKkSpvkEqarFsLxWBonqxva8Sewfo5t3RQ/XYmRZ2U9jtF41hxD21vSgo1lyFjm5uXd99bKEGefHL/GDUjgl+uasQwqf5JnkZwXyjuAXjdCyTB31VAgaRUt0miR9Nu9BYNhJ8EmLMrywEWO5s3PqSOH1my6bh87eZc178XJQtEizPISE1e35SYqzbkM6PSOqwDWVG0RLrfR6E+K8h6F2X5Jz4htACxc783p+0inaxafA6/O8VGEtnmdDToj4Svcas2bbv+FNPPDhxlhNRWKT9EF8ZKoNKFDT2h5qKM3iKHwm0JFWEZc2nkL2XTd6rPvOWEJmjm5vvreVwVZ8nUuDX2RppZUWyp6YV5WBZxVZoom22VvNU9IuJMIlDE5i3YW/ioyAdbFk2fWdRZU//bl6/O4DICUjv0iFBhCRHk5a7m7oaxBNW87NuhnmBwCJDcRFoVLdu3WbPbTrHql7LadroLXQ2XUtQObDD/Hn+z9jBhSD04xhAlDWElXLCoFKo8VY47F+dpeWtsDCQa9AUEpEzVfF2Tf2yQOAgtlMZcxtE0yd/ehr9nA7r07DXepCSvw6UDorhtnpQKv8VjcxMerPv7XRCgjlwJp2sIVQiwxyU4tLk38N++8fLvRKunkk52nOHEFUxAVUQhXplsdsXos7aO2WkJlGkAWnCLrsvLbxLQ1r10zhroHlghgvkF6ceLJ8R0b2bt7N57BWX6voQRf0EbOzdIc4rDTqBH3xLba9osl0lboXNnOvi9m0FXadlJoUvySsJRPzgbNw4NNV827ML7yoG8MYeFH6z53w/d5HmWqN0L5muKxLMkKkKKsqwqi4nXlWNJpVjiSqxVh+XNhhHi479bpzYd9j8VS99NFXLr61xyrIrWM9d90iQhtL2OY1VnRFu0WXAVfzZssJIogLIcmWPV8DZK7MVf+azXymUsiN+HQK7mscu2veZd1qseRm7DMH6ylcCiLf1yFpgtdiI2Teo7FeBqtNGPxvunu/6xGdl6NfANBkSDTsnDj97TMStnz/tvrSy/hO9S8qBjbEfMGQaWYIUN4WhapP45bHW3zuWwA6z/XbhHPr35lA4akbuaLtMnKECAwI5jMxtCYKNu6+OOqn64uJXq2MsWfMEoTnZI8TKGGMtbm3uLJB6a4+gid102KVj1zeU/Tve9ZcP7AGKF7aNlVsLoZu6T6kRSAIksH5IxcSbZA+iXl5ivd38yb+U8TQRTH60VT8QKrQgRNpR4oHqSIB9YT76hovM8oqJEYI3vojp2G2a673W2b9geL/rt+35sl+oOJCW2VF+hyLNsPM2/fvcxj6HY4NOMLsPDvN+CXP8EwAIcMF1v6JjJEzrQJwvcbblBSXjWGKjtUVeSLCSrOy/ctYX2QvFRxHQg9pZofFSDK87GLvIm6FO7UQ79S/KbTx2q5UZGVeRheTYXAH1oGInBxcmc6w61huQ5fjLA48lO+4jfCqAhFrFgwRHxzEkGWX4r3D4l/te4V5oMIkLxUrpRcuqNhIRoqmWsNC80VYOFqnD1Bpw0zABbWY76OZTNQCEHMYtYIakFrVbFQDP2Sir4Xg1BTlihwdD3BASVdQ0pg3UVzZelY9wnLifuc5B6bjAVp1nw/wPsFCP0WoYjKqocLQfijGlQ1VQMdF9fzBKIZ7qiDypkzSeVb6JAxlpQUHnHOaHs+FAYZNS2CqvssYWkRqlhYKC9UmqUfIQoCTFkJmugDyXjowKZ+ohSfjdb6id33XWlwnkK6ZQPL9QOLsKxCsVFGWhFWLK6KxPWbsIyyd+E7PjVVqAIviCQCI55uMWzGmhMtYa3tHiWnRrplG4JzTlEOGowFmthIxitFUg6rql6Yj+oxZqiUqyL38xc4axpREjZGZqUB/RpYufRNfLU2+fiOaegZP6CRVUXM8hVUJerNzbMUNBSl0wsNFZYsVWFOokJ6XZY89ALdgsyZfP/s3p/c1LX0gYOuY91jr7OOo7E4hvMwBwgGXT8iIs0EUD+y/MgvN6LqLyo3ihy6h6l0w70jaITIXurvWQtPvXQ5sfdeKjecJQcENvJ+Tq0GnQcWgwGIoYqlRhSWFBotYb0YU/lKSaUMagdT7YhL+jQnd/pk6sLGh4mWZNWmjdNDVyeFEHEl3PBE9BVYVWDhg6VoNeq4A7FlXuhD2TVVwFTsy3XJgG/DZ2/Gpjd2tT7s37Mr/ST/8Sn3pCCmlKLCbWmQkQCq4uOOjFTgKvjqeK3qQSCDQDAV/6GgFc8eOnUyvWVboh1yAnPeEy8EuQ+6yV3DqMOYW5qJyt9IXCOFTnUZvjq2FOVmzfFQEGd3GlclhZi8OnhzD3LW9sjOB3v252eexjMtjoRVjcJqCTtZqSvk+AqdYVQf/EZxkUrBrruohVMdkGtZZPyO3sqPXh+YSrRNVpx6eXlwRlDSaMezpYarR65rqum4fhV1+dBiY0F3QeBJIaWNRNZma4fTsYW3cpmDE5vbOsa/8/j1/AvWrbjto6MniQrOJ1v5KvC1fWVb0YQRlg6XJ3EyDZkQ1uTg8wdTW9s84Llz4MrEMwExmYn9ti1d6TrQtiDk0Di2qogYTCEo4iBPSJmPDayjV0czU+0fhz11GePfjpBCT2QxV22hUobDKfxu60PXkxw5cieRPbyg0dMXg9cntnZgpvn48/ykkK5gIOoswcV5Re0SGYqkqiQWiwIGLmLyUCyPUd6euDmwuSOj1plHM1kXm6axDO3jgkqJN1BD+Z7kqWc9fKTneAnLdm5t35Pf0JHB9O2Xc2eAZZrMIwiLN9P1MfADJhQCJX6NnYa7YcNgaCy408nc8+OJDo3x378ysZujaArv8aJbliCTZLw8espBEAYP4vDsJA9ck0edGc1s3toZrA07M4Ov4YMENzgWsfA1pR90FBDOcLDHJtNjI9nJX8zt2Z7o2CMi127m7whHT1aCDe+rm5aSjtpo0A8cPbWHs/RBZk9dedmxR0Rwycy1GWg0yMxF3eJdkibtlrZoAsJY/GubviV9n9q6WUs7J8C1rEjkLudeDw+fwceZM/v2jYyMHGWVpmVhSjYH5P5G9pHgrGHI4VyG9T1erQ7Iua7ZPkiyT0uq/8htg3Z1MXbhtcre3ZGKT+jp65udnT23FjCdlN7z6XT67Fm86OP5vnd3d2NPbWJiPUNMjPBznE/gc+hlKPEPpLe3dxXJ0FDywvh06uQl2Cc2GsS1b3RsevzeyqEhPgWnJv6HIHh9O/Zocg5UZAlG9vd3p5fF85zdu9Irxx7chtY72YH+WTz9ujyeY171dsvZZP8Rw7nRkzw//nD5PCucwlPVqQNPUtPjF5KJ5SQp6P7D8XtJ2r/1VlditbUysRykN3nhfA+g/o61blPin8vfsdZYVgduVFyWdbpLH9bQ2ydXr/kD1s92zIbHbRAGwxFgbD4i+LHv/9eMSVra7raq7aSTdr4m1DbET+wUyCUgpLXOLYzGB0j6JBDgIijAiiCIo2mjiRD/iOVjveFiYD/a+nGsHtGOWozGDSKHs2QB6cQqCiA3XG2MJBvKb8PUcGTCA70h0MQqwGGMLhvW1PzEaqDtnqvryIgyerl3qTw0ARWrHAHr8J6edHa2RHY9TuFrbS/24D+HFbqPMVEcVDTj7QJECjGedx80UWwFpFjjENoOyZPGDaO274qMonFFXVArIErSAMVYxQFmexAWoKaPzkImLS1YiuotN9XSFEEXV7yk7p63f3hd0Uj9DtXNWHSoSvI3oe+zgn8nQfit1oWXGedF+TxWxOXXKt8I65NCguptekD2FiSglQopVhaEYqFrtW+zv4H4DCHzSZs+QllJ0SpepXKovWlbQm/2+wZa06PbrF6zghks6rTsCD1Y1Apq2FcfqbpiQeKrWOU6WzGq3fvm9bCVbeakmNWbxRbqNKIycmK0xfeI9caE0YBo4QXzYsGOGaNUQNvFcumzY0hYfSvW288cV7hRku4esBxqibdYo6Z+aAXROcf/CIvJtVEAiOsPWKShwy1WRHZ5aF6kOEoPWBn8ASwCkGcrkDusFIaV1tC+ASIjoJP7AtupwX2iiMmlo/XsRjQeh+mmefWvlo21o2pK6NSw+uzkeZjs9L3eJ3/k/5YYx76YK3/hN+8X6t2G0VV+7GPKC+tzGsth+8NbU4JbY+xXNc33oh69qYR8OPjah7yNZ/Qx9lms0G2VJlCQm0GVZoAg47J5+sT5SgtlDLaYyuybBXw4Ln12kCqjFdaxT1IxyrwKSMIITahqKe14JS2I6nMFsFrDqesMyaxuzmWpYttWLJOSimFJLeOyz4mG3IthOR83/SA2IBLSFpEoBdqKh2sxoG45wyn3YGMSl8MYPgGYxmBCYj6xvGCfGR0KMVVW/9PZCm5mq8Prp2UR7A6gAhecQPoGqhWq2jv2dIUKt4MLWPJ44loYg5Ux07wsbVF62Dpp+UA+Swhg9T/9bEETgtQAsQ+yl7mda0rLWeMfPs+Uoa5DTR6uh2NbI/OoI01xWsbfJpooU0//k0IyQi0198vLec2+i/jfjmPfhIXGV6JrF6ilHEmhskn0EemleasQn/tTdD3R1oFyGND4izQD+828lWWEr8IlXEF221u8Jz7GycCv/D+D+3kn4WfD8P/JL6L4I1wIKuUgAAAAAElFTkSuQmCC"
+                        alt="نماد اعتماد الکترونیکی"></div>
+
+            </section>
+        </aside>
 
     </body>
 
