@@ -43,4 +43,54 @@ To run this Divar clone locally, follow these steps:
 
    ```shell
    git clone https://github.com/your-username/divar-clone.git
+   
+2. Navigate to the project directory.
 
+   ```shell
+   cd divar-clone
+   ```
+
+3. Open the `index.html` file in your preferred web browser.
+
+4. Start exploring the Divar-like experience right on your device!
+
+## Meal Suggestion App
+
+The Meal Suggestion App is a JavaScript application that provides meal suggestions based on the current time passed by the user.
+
+### Features
+
+- **Time-Based Suggestions**: Input the current time (provided by the user), and the app will recommend appropriate meals based on whether it's breakfast, lunch, or dinner.
+
+### How to Use
+
+To use the Meal Suggestion App, follow these steps:
+
+1. Clone the repository to your local machine.
+
+   ```shell
+   git clone https://github.com/your-username/meal-suggestion-app.git
+   ```
+
+2. Navigate to the project directory.
+
+   ```shell
+   cd meal-suggestion-app
+   ```
+
+3. Run the JavaScript app by executing the script.
+
+   ```shell
+   node meal-suggestion.js
+   ```
+
+4. Enter the current time as prompted and receive meal recommendations!
+
+### Contributions
+
+Contributions to enhance the Meal Suggestion App are welcome. Feel free to submit issues or pull requests to help improve the project.
+
+This project is a practical tool for deciding what meal to have next based on the time of day. Enjoy your meals!
+```
+
+This combined README provides information about both projects in a single document. It covers the Divar Clone with its responsive web design and the Meal Suggestion App for deciding meals based on the time of day. Make sure to replace `your-username`, `your-demo-video-link`, and other placeholders with the actual details of your projects.
