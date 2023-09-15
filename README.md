@@ -26,7 +26,7 @@ This is a responsive web application that replicates the appearance and function
 ![Desktop View](https://github.com/GhazalBasalighe/hw09_maktab99/assets/127536254/420ca741-5d1b-4047-8c5b-f3cd653d0349)
 
 #### Tablet View
-![Tablet View](https://github.com/GhazalBasalighe/hw09_maktab99/assets/127536254/729fe089-dca2-491f-8b26-e2d754216e7c)
+![Tablet View](https://github.com/GhazalBasalighe/hw09_maktab99/assets/127536254/7c0c43ed-ca66-47a6-9ecd-f238b838252d)
 
 #### Mobile View
 ![Mobile View](https://github.com/GhazalBasalighe/hw09_maktab99/assets/127536254/10f5be90-fee4-4ba1-8897-52e8395d2c76)
